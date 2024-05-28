@@ -1,0 +1,97 @@
+
+
+@font-face {
+    font-family: 'Digital-7';
+    src: url('../fonts/digital-7.ttf') format('truetype');
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Digital-7', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(120deg, #1c2430, #19232f, #1c2430, #1c2430, #14242c, 
+    #1c1c2c, #141c29, #1c242c, #1c2434);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+.relogio div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: rgba(5, 5, 5, .9);
+    box-shadow: 5px 5px 15px #302c3c;
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.relogio span.tempo {
+    font-size: 10px;
+}
+
+
+
+/* Media Queries para Responsividade */
+@media (max-width: 1200px) {
+    #horas, #minutos, #segundos {
+        font-size: 12vw;
+    }
+}
+
+@media (max-width: 768px) {
+    #horas, #minutos, #segundos {
+        font-size: 15vw;
+    }
+}
+
+@media (max-width: 480px) {
+    #horas, #minutos, #segundos {
+        font-size: 20vw;
+    }
+}
+
+.tempo {
+    font-size: 4vw;
+}
+
+@media (max-width: 1200px) {
+    .tempo {
+        font-size: 5vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .tempo {
+        font-size: 6vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .tempo {
+        font-size: 8vw;
+    }
+}

@@ -19,4 +19,4 @@ O projeto é composto pelos seguintes arquivos e diretórios:
 
 # Capturas de Tela
 
-![Captura de Tela 1](assets/IMG/CAPA.jpg)
+![Captura de Tela 1](assets/img/CAPA.jpg)
